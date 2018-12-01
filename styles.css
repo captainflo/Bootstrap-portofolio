@@ -96,7 +96,7 @@ body{
     position: absolute;
     background: #4aaaa5;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 78px;
     text-align: center;
     color: #ffffff;
     height: 45px;
@@ -148,6 +148,7 @@ button{
 
 /* Footer */
 footer{
+    position: fixed;   
     left: 0 ; right: 0; bottom: 0; 
     border-top: 8px solid #4aaaa5;
     display: block;
@@ -191,6 +192,12 @@ footer p{
         margin-right: none;
         margin-bottom: none;
     }
+    footer{
+        position: fixed;     
+    }
+    .block-text{
+        margin-top: 120px;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -208,5 +215,8 @@ footer p{
     .title{
         padding: 15px;
         font-size: 35px;
+    }
+    footer{
+        position: fixed;     
     }
  }
